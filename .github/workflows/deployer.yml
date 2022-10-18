@@ -22,6 +22,6 @@ jobs:
           name: api-ingest
           project_id: ${{ secrets.GCP_PROJECT_ID }}
           region: us-central1
-          entry_point: HelloWorld
+          entry_point: functions.HelloWorld
           runtime: java17
           env_vars: "GCP_PROJECT_ID=${{ secrets.GCP_PROJECT_ID }}"
