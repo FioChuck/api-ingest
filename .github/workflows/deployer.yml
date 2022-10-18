@@ -22,7 +22,7 @@ jobs:
           name: api-ingest
           project_id: ${{ secrets.GCP_PROJECT_ID }}
           region: us-central1
-          source_dir: src
+          source_dir: api-ingest
           entry_point: com.example.Example
           runtime: java17
           env_vars: "GCP_PROJECT_ID=${{ secrets.GCP_PROJECT_ID }}"
